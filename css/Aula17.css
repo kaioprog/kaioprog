@@ -1,0 +1,26 @@
+body{
+	background: rgb(0,205,0);
+}
+.titulo{
+	color:#00FFFF;
+}
+
+.imagem{
+	border-radius: 100px;
+	float: left;
+	position: relative;
+	margin-top: 25px;
+
+
+}
+.paragrafo{
+	font-style: italic;
+	font-size: 33px;
+	letter-spacing: 2px;
+	text-align: justify;
+}
+.rodape{
+	color: dark;
+	text-align: left;
+	font-style: italic;
+}
