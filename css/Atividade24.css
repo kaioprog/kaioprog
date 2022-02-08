@@ -1,0 +1,43 @@
+.box{
+	position: relative;
+	left: 20px;
+	top: 20px;
+	width: 100px;
+	height: 100px;
+	background: darkseagreen;
+	animation-name: Animacao;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+.box:hover{
+	border: solid 5px black;
+	transition: border 3s 2s;
+}
+
+@keyframes Animacao{
+	from{
+		left: 30px;
+	}
+     
+
+    25%{
+        transform: rotatez(90deg);
+        background: #7FFFD4;
+                
+        }
+        50%{
+           transform: rotateZ(180deg);
+           background: #2F4F4F;
+            }
+           
+        75%{
+           transform: rotateZ(270deg);
+           background: 	#A52A2A;
+            }
+
+        100%{
+            transform: rotateZ(360deg);
+            background: #F0FFF0;
+            }
+
+}

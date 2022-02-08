@@ -1,0 +1,82 @@
+.grid{
+    display: grid;
+    grid-template-areas: 
+        "logo nav nav"
+        "logo conteudo section"
+        "logo container container"
+    ;
+
+    width: 900px;
+    height: 600px;
+
+    margin: 2em;
+}
+
+
+.container{
+    display: grid;
+    grid-template-areas: 
+        "header main footer"
+    ;
+
+    grid-area: container;
+}
+
+
+.logo{
+    grid-area: logo;
+    background-image: url("cachorro1.jpg");
+    background-size: cover;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+
+.nav{
+    grid-area: nav;
+    background-image: url("cachorro2.jpg");
+    background-size: cover;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.conteudo{
+    grid-area: conteudo;
+    background-image: url("cachorro3.jpg");
+    background-size: cover;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.section{
+    grid-area: section;
+    background-image: url("cachorro4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.header{
+    grid-area: header;
+    background-image: url("cachorro5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.main{
+    grid-area: main;
+    background-image: url("cachorro6.jpg");
+    margin: 1em;
+    border-radius: 1em;
+
+}
+
+.footer{
+    grid-area: footer;
+    background-image: url("cachorro7.jpg");
+    margin: 1em;
+    border-radius: 1em;
+}
