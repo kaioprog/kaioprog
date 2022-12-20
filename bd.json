@@ -1,4 +1,1 @@
-
-        {"estado": "São Paulo", "sigla": "SP"},
-        {"estado": "Minas Gerais", "sigla": "MG"},
-        {"estado": "Rio de Janeiro", "sigla": "RJ"}
+{ "estado": "São Paulo"}
